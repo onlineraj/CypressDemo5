@@ -1,0 +1,13 @@
+node_modules
+cypress/videos
+cypress/screenshots
+TestReport
+mochaawesome-report/
+cypress-combined-report.json
+cypress/integration/dummy.js
+cypress/fixtures
+cypress/downloads
+*.mp4
+package*.json
+
+
