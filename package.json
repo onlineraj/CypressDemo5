@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-if": "^1.13.2",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3"
+  }
+}

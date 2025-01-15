@@ -8,6 +8,6 @@ cypress/integration/dummy.js
 cypress/fixtures
 cypress/downloads
 *.mp4
-package*.json
+
 
 
