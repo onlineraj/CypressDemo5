@@ -15,6 +15,12 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-// Cypress.Screenshot.defaults({
-//     screenshotOnRunFailure: true,
-//   })
+
+const { defineConfig } = require('cypress')
+
+module.exports = defineConfig({
+  e2e: {
+    baseUrl: 'https://www.zoho.com/people',
+    defaultCommandTimeout:15000
+  },
+})
